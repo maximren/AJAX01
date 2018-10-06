@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img {
+	max-width:100%;
+}
+
+#content {
+	padding-top: 20px;
+}
+
+.character-item,
+.location-item,
+.episode-item {
+	margin-bottom: 20px;
+	.card {
+		height: 100%;
+	}
+}
+
+.pagination {
+	button {
+	    position: fixed;
+	    top: 50%;
+	    &.prev {
+	    	left: 0
+	    }
+	    &.next {
+	    	right: 0;
+	    }
+    }
+}
+.character-link {
+	width: 100%;
+	text-align: center;
+}
